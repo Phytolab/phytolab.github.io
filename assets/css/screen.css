@@ -901,11 +901,14 @@ iframe {
     transition: opacity .25s;
 }
 
-table, td {
-  border: 1px solid;
+table {
+  border-collapse: collapse;
+  width: 100%;
 }
 
-table {
-  width: 100%;
-  border-collapse: collapse;
+th, td {
+  text-align: left;
+  padding: 8px;
 }
+
+tr:nth-child(even) {background-color: #f2f2f2;}
