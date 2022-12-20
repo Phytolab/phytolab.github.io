@@ -902,7 +902,6 @@ iframe {
 }
 
 table {
-  font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
 }
@@ -913,8 +912,6 @@ td,th {
 }
 
 tr:nth-child(even){background-color: #f2f2f2;}
-
-tr:hover {background-color: #ddd;}
 
 th {
   padding-top: 12px;
