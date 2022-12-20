@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "New Post"
+title:  "Introduction To R"
 author: Musa
 categories: [ R, tutorial ]
 description: "It is my first try in publishing a Post!"
