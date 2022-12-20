@@ -1,4 +1,4 @@
----
+09386434389---
 layout: post
 title:  "New Post"
 author: Musa
@@ -72,7 +72,7 @@ Let's create a new project directory for our "Introduction to R" lesson today.
 6. When RStudio opens, you will see three panels in the window.
 7. Go to the `File` menu and select `New File`, and select `R Script`. The RStudio interface should now look like the screenshot below.
 
-![RStudio interface](../img/Rstudio_interface.png)
+![RStudio interface](https://raw.githubusercontent.com/hbctraining/Intro-to-R-flipped/master/img/Rstudio_interface.png)
 
 ### What is a project in RStudio?
 
@@ -112,11 +112,11 @@ Your working directory should be the `Intro-to-R` folder constructed when you cr
 
 You can visualize your working directory by selecting the `Files` tab from the **Files/Plots/Packages/Help** window. 
 
-![Viewing your working directory](../img/getwd.png)
+![Viewing your working directory](https://raw.githubusercontent.com/hbctraining/Intro-to-R-flipped/master/img/getwd.png)
 
 If you wanted to choose a different directory to be your working directory, you could navigate to a different folder in the `Files` tab, then, click on the `More` dropdown menu and select `Set As Working Directory`.
  
-![Setting your working directory](../img/setwd.png)
+![Setting your working directory](https://raw.githubusercontent.com/hbctraining/Intro-to-R-flipped/master/img/setwd.png)
 
 
 ### Structuring your working directory
@@ -124,11 +124,11 @@ To organize your working directory for a particular analysis, you should separat
 
 Let's create these three directories within your working directory by clicking on `New Folder` within the `Files` tab. 
 
-![Structuring your working directory](../img/wd_setup.png)
+![Structuring your working directory](https://raw.githubusercontent.com/hbctraining/Intro-to-R-flipped/master/img/wd_setup.png)
 
 When finished, your working directory should look like:
 
-![Your organized working directory](../img/complete_wd_setup.png)
+![Your organized working directory](https://raw.githubusercontent.com/hbctraining/Intro-to-R-flipped/master/img/complete_wd_setup.png)
 
 ### Setting up 
 
@@ -136,11 +136,11 @@ This is more of a housekeeping task. We will be writing long lines of code in ou
 
 Click on "Tools" at the top of your RStudio screen and click on "Global Options" in the pull down menu.
 
-![options](../img/tools_options.png)
+![options](https://raw.githubusercontent.com/hbctraining/Intro-to-R-flipped/master/img/tools_options.png)
 
 On the left, select "Code" and put a check against "Soft-wrap R source files". Make sure you click the "Apply" button at the bottom of the Window before saying "OK".
 
-![wrap_options](../img/wrap_option.png)
+![wrap_options](https://raw.githubusercontent.com/hbctraining/Intro-to-R-flipped/master/img/wrap_option.png)
 
 ## Interacting with R
 
@@ -155,7 +155,7 @@ Let's test it out:
 3 + 5
 ```
 
-![Running in the console](../img/console.png)
+![Running in the console](https://raw.githubusercontent.com/hbctraining/Intro-to-R-flipped/master/img/console.png)
 
 ### Script editor
 
@@ -173,11 +173,11 @@ Now let's try entering commands to the **script editor** and using the comments 
 	## I am adding 3 and 5. R is fun!
 	3+5
 
-![Running in the script editor](../img/script_editor.png)
+![Running in the script editor](https://raw.githubusercontent.com/hbctraining/Intro-to-R-flipped/master/img/script_editor.png)
 
 You should see the command run in the console and output the result.
 
-![Script editor output](../img/script_editor_output.png)
+![Script editor output](https://raw.githubusercontent.com/hbctraining/Intro-to-R-flipped/master/img/script_editor_output.png)
 	
 What happens if we do that same command without the comment symbol `#`? Re-run the command after removing the # sign in the front:
 
@@ -281,7 +281,7 @@ y
 
 You can also view information on the variable by looking in your `Environment` window in the upper right-hand corner of the RStudio interface.
 
-![Viewing your environment](../img/environment.png)
+![Viewing your environment](https://raw.githubusercontent.com/hbctraining/Intro-to-R-flipped/master/img/environment.png)
 
 Now we can reference these buckets by name to perform mathematical operations on the values contained within. What do you get in the console for the following operation: 
 
@@ -338,14 +338,14 @@ You can access the files we need for this workshop using the links provided belo
 
 In this example dataset, we have collected whole brain samples from 12 mice and want to evaluate expression differences between them. The expression data represents normalized count data obtained from RNA-sequencing of the 12 brain samples. This data is stored in a comma separated values (CSV) file as a 2-dimensional matrix, with **each row corresponding to a gene and each column corresponding to a sample**.
 
-<img src="../img/counts_view.png" width="900"> 
+<img src="https://raw.githubusercontent.com/hbctraining/Intro-to-R-flipped/master/img/counts_view.png" width="900"> 
 
 ### The metadata
 We have another file in which we identify **information about the data** or **metadata**. Our metadata is also stored in a CSV file. In this file, each row corresponds to a sample and each column contains some information about each sample. 
 
 The first column contains the row names, and **note that these are identical to the column names in our expression data file above** (albeit, in a slightly different order). The next few columns contain information about our samples that allow us to categorize them. For example, the second column contains genotype information for each sample. Each sample is classified in one of two categories: Wt (wild type) or KO (knockout). *What types of categories do you observe in the remaining columns?*
 
-<img src="../img/metadata_view.png" width="400"> 
+<img src="https://raw.githubusercontent.com/hbctraining/Intro-to-R-flipped/master/img/metadata_view.png" width="400"> 
 
 R is particularly good at handling this type of **categorical data**. Rather than simply storing this information as text, the data is represented in a specific data structure which allows the user to sort and manipulate the data in a quick and efficient manner. We will discuss this in more detail as we go through the different lessons in R!  
 
