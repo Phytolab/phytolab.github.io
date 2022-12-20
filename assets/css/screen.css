@@ -900,3 +900,12 @@ iframe {
     opacity: 0;
     transition: opacity .25s;
 }
+
+table, td {
+  border: 1px solid;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
