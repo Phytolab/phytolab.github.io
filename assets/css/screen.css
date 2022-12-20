@@ -904,11 +904,9 @@ iframe {
 table {
   border-collapse: collapse;
   width: 100%;
-  border: 0px;
 }
 
 td,th {
-  border: 1px solid #ddd;
   padding: 8px;
 }
 
