@@ -2,7 +2,7 @@
 layout: post
 title:  "New Post"
 author: Musa
-categories: [ Jekyll, tutorial ]
+categories: [ R, tutorial ]
 description: "It is my first try in publishing a Post!"
 image: https://raw.githubusercontent.com/hbctraining/Intro-to-R-flipped/master/img/why_R.png
 hidden: true
