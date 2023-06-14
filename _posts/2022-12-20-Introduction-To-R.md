@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Musa Mohammadi"
-categories: [ R, tutorial ]
 description: "About Me"
 image: https://raw.githubusercontent.com/hbctraining/Intro-to-R-flipped/master/img/why_R.png
 featured: true
