@@ -1,4 +1,4 @@
-# Phytolab - A Bioinformatic blog
+# Phytolab - A Bioinformatic Lab
 
 I'm here to learn and share my learinings. 
 
