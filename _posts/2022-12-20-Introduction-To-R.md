@@ -7,6 +7,7 @@ image: https://raw.githubusercontent.com/hbctraining/Intro-to-R-flipped/master/i
 featured: true
 hidden: true
 ---
+About Me
 
 ## Learning Objectives
 
