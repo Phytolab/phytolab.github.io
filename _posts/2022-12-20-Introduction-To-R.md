@@ -1,14 +1,12 @@
 ---
 layout: post
-title:  "Introduction To R"
-author: Musa
+title:  "Musa Mohammadi"
 categories: [ R, tutorial ]
-description: "It is my first try in publishing a Post!"
+description: "About Me"
 image: https://raw.githubusercontent.com/hbctraining/Intro-to-R-flipped/master/img/why_R.png
 featured: true
+hidden: true
 ---
-
-Approximate time: 45 minutes
 
 ## Learning Objectives
 
