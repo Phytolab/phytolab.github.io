@@ -2,7 +2,7 @@
 layout: post
 title:  "Musa Mohammadi"
 description: "About Me"
-image: https://github.com/Phytolab/phytolab.github.io/blob/master/assets/images/Profile_Pic.png
+image: https://raw.githubusercontent.com/Phytolab/phytolab.github.io/master/assets/images/Profile_Pic.png
 featured: true
 hidden: true
 ---
