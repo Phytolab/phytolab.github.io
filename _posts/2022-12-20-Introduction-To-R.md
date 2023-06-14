@@ -2,7 +2,7 @@
 layout: post
 title:  "Musa Mohammadi"
 description: "About Me"
-image: https://raw.githubusercontent.com/hbctraining/Intro-to-R-flipped/master/img/why_R.png
+image: https://github.com/Phytolab/phytolab.github.io/blob/master/assets/images/Musa.png
 featured: true
 hidden: true
 ---
