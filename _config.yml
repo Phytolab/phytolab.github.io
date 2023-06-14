@@ -1,7 +1,7 @@
 # Site
 name: "Phytolab"
 title: "Phytolab"
-description: "A bioinformatics blog from Phytolab Plant Clinic"
+description: "A bioinformatics Lab"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/log.png'
 baseurl: /
